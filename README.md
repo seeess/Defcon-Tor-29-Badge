@@ -13,6 +13,11 @@ Be gentle with the finger cuff cable's JST 2.0 connector. When disconnecting the
 
 I recommend you tie a knot in the lanyard behind your neck to adjust the length of this or other badges you will be wearing to prevent them from banging into each other.
 
+---
+Full video overview on youtube: https://www.youtube.com/watch?v=aaRbma9SlGY
+
+---
+
 ## How To Use It
 
 ### Heart Rate Sensor
@@ -53,6 +58,8 @@ Here are some tips for an accurate reading:
 
 Remember you should wait ~30 seconds after triggering the GSR sensor for the reading to return to the previous value before attempting to trigger it again. This is also why polygraph examiners wait between asking you questions. 
 
+---
+
 ## Cheat Modes
 
 Once you enable "cheat modes" in the option menu, you can use two different cheats in the normal "Lie Detector" mode.
@@ -69,6 +76,8 @@ Pressing and holding the up button in the "Lie Detector" mode will prevent the G
 
 When this cheat is active the bottom right pixel of the left screen is lit (to the right of the delta-GSR display). Releasing the up button will exit this cheat mode, but only after the displayed GSR value reaches the actual GSR value. This prevents a sudden jump back to the actual GSR reading. Only one cheat can be active at a time. 
 
+---
+
 ## Option Modes
 
 **Screen brightness** can be changed between high, medium, and low.
@@ -79,6 +88,8 @@ When this cheat is active the bottom right pixel of the left screen is lit (to t
 
 **Cheat Modes** enables and disables the two available cheat modes in the "Lie Detector" mode. 
 
+---
+
 ## Bling Modes
 
 **Fake Pulse** shows a fake heart rate on both screens. It blinks the green heart rate LED and the blue xiao LED during each pulse. Pressing Up or Down toggles the LEDs if you don't want them to blink.
@@ -88,6 +99,8 @@ When this cheat is active the bottom right pixel of the left screen is lit (to t
 **Bad Defcon Advice** shows 46 different sarcastic advice for defcon that are not great ideas. These were mostly stolen from twitter [#baddefconadvice](https://twitter.com/search?q=%23baddefconadvice). These auto increment every 60 seconds or so. The right and up button moves to the next advice, the down button goes back one. 
 
 **Name Scroll** allows you to enter your nickname and have it scroll across the badge. You can use up to 16 characters, of nearly any printable ascii character. This is saved to flash after you enter it. If your nickname isn't a full 16 characters, press and hold the right button after you enter the last character, then the entered string will begin to scroll. The up and down buttons change the scroll speed (including the ability to freeze it in position), and the right button inverts the colors (only after all of the characters have been written to the screen).
+
+---
 
 ## Hardware
 
@@ -111,6 +124,8 @@ All pins of the xiao are used. But pin A1 is used to enable and disable the 3v3 
 
 There are two small 0.1" proto areas, one has a 3v3 and ground pin. 
 
+---
+
 ## In The Box
 
 * Electronic badge
@@ -122,6 +137,8 @@ There are two small 0.1" proto areas, one has a 3v3 and ground pin.
 
 I should have a few sets of pin headers if you want to solder them on. But be careful with other badges making contact with the unshielded pins. 
 
+---
+
 ## Powering The Badge
 
 Normally the badge will be powered by two AA batteries that are vreg boosted to 3.3 volts. However the xiao also has its own onboard 5v -> 3.3v regulator ([XC6206P332MR](https://www.digikey.com/en/products/detail/torex-semiconductor-ltd/XC6206P332MR-G/7386004)) which is used when connected via USB-C. You can power the badge directly over USB-C, without any batteries. 
@@ -132,6 +149,8 @@ If you have a problem with the board's 3.3 boost regulator, you could apply ~3.6
 
 If the screen freezes and the buttons don't do anything, your AA batteries are likely dead. Replace them or try powering the badge off USB-C.
 
+---
+
 ## Usefulness of Polygraph Machines
 
 I'm not the authority on polygraph machines, but the determination of if a subject is lying or not is up to the examiner and it is subjective. The examiner generally tries to convince the subject that the polygraph can't be defeated, which is not the case. 
@@ -139,6 +158,8 @@ I'm not the authority on polygraph machines, but the determination of if a subje
 In 1988 the [Employee Polygraph Protection Act](https://en.wikipedia.org/wiki/Employee_Polygraph_Protection_Act) was passed that mostly prevents you from having to go through a polygraph for a job (except for gov employees). "Probable lie" questions are asked to establish a baseline are biased against the innocent. Polygraphs are generally not admissible in court.
 
 The point of this badge was not to be able to accurately output "truth" or "lie" when a subject is connected (which isn't possible with any polygraph machine). Instead the point was to expose more people to how they work, and allow people to practice GSR polygraph countermeasures (physical, mental, chemical, and behavioral). Real polygraph machines include additional sensors like a breathing sensor, and blood pressure. 
+
+---
 
 ## Connecting To A Computer
 
@@ -161,9 +182,13 @@ To easily see this data you can install the arduino IDE.
 
 The "Thresh" value is something not available to graph on the badge's OLEDs directly. This threshold is used to determine when peaks are detected in the heartbeat graph. You can comment out the threshold, or any other variable out of the code if you want a cleaner visualization. 
 
+---
+
 ## Flash Storage
 
 After you enter your name in the "Name Scroll" mode, it will be saved to flash. This will be loaded next time you enter "Name Scroll" mode, and works through power cycles. If something strange happens the best way to clear this flash bank is to reflash the badge. 
+
+---
 
 ## How To Flash The Badge
 
@@ -176,9 +201,13 @@ After you enter your name in the "Name Scroll" mode, it will be saved to flash. 
     * https://github.com/khoih-prog/FlashStorage_SAMD
 5. Compile and upload the code
 
+---
+
 ## Bill Of Materials
 
 TBD
+
+---
 
 ## Badge Challenge
 
