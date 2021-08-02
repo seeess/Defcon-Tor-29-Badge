@@ -130,6 +130,8 @@ If both 5v (USB) and 3.3v (battery) power is applied, the badge will detect this
 
 If you have a problem with the board's 3.3 boost regulator, you could apply ~3.6-6v to the 5v pin of the xiao to use its vreg instead. 
 
+If the screen freezes and the buttons don't do anything, your AA batteries are likely dead. Replace them or try powering the badge off USB-C.
+
 ## Usefulness of Polygraph Machines
 
 I'm not the authority on polygraph machines, but the determination of if a subject is lying or not is up to the examiner and it is subjective. The examiner generally tries to convince the subject that the polygraph can't be defeated, which is not the case. 
