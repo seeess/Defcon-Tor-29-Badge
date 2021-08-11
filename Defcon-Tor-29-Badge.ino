@@ -31,7 +31,7 @@
 #define RIGHTBUTTON A10  //A10 - button right
 
 //-----------------------------------------------------------------
-#define CODE_VERSION 5
+#define CODE_VERSION 6
 #include <ss_oled.h> //https://github.com/bitbank2/ss_oled
 #include <Adafruit_SleepyDog.h> //https://github.com/adafruit/Adafruit_SleepyDog
 #include <FlashAsEEPROM_SAMD.h> //https://github.com/khoih-prog/FlashStorage_SAMD
@@ -836,8 +836,8 @@ void loop(){
         digitalWrite(HBLED, HIGH); //green hb led
         delay(140);
       }while(digitalRead(LEFTBUTTON) == 1 && digitalRead(RIGHTBUTTON) == 1 && digitalRead(UPBUTTON) == 1 && digitalRead(DOWNBUTTON) == 1);//no button press
-      oledWriteString(&ssoled[0], 0, 1/*x*/, 3/*y*/, "---CENSORED---", FONT_SMALL, 0/*inv color*/, 1);
-      oledWriteString(&ssoled[1], 0, 1/*x*/, 3/*y*/, "---CENSORED---", FONT_SMALL, 0/*inv color*/, 1);
+      oledWriteString(&ssoled[0], 0, 1/*x*/, 3/*y*/, "gigsatdc.com/torbadge", FONT_SMALL, 0/*inv color*/, 1);
+      oledWriteString(&ssoled[1], 0, 1/*x*/, 3/*y*/, "gigsatdc.com/torbadge", FONT_SMALL, 0/*inv color*/, 1);
       delay(1000); //could you give it a second?!
       while(digitalRead(LEFTBUTTON) == 1 && digitalRead(RIGHTBUTTON) == 1 && digitalRead(UPBUTTON) == 1 && digitalRead(DOWNBUTTON) == 1){
         digitalWrite(PIN_LED2, HIGH); //builtin bottom blue led on the xiao

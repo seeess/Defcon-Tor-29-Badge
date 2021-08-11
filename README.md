@@ -167,7 +167,7 @@ The stock firmware outputs the raw data over serial USB (115200/8/n/1) to allow 
 
 To easily see this data you can install the arduino IDE. 
 
-1. Under Tools -> Port, select the right COM port (You may have to first install the xiao board package, see the "Flash Storage" section)
+1. Under Tools -> Port, select the right COM port (You may have to first install the xiao board package, see the "[How To Flash](https://github.com/seeess/Defcon-Tor-29-Badge#how-to-flash-the-badge)" section)
 2. Under Tools -> Serial Monitor you can see the raw text
     
     Thresh:619 HB:462 BPM:61 GSR:555  
@@ -197,8 +197,11 @@ After you enter your name in the "Name Scroll" mode, it will be saved to flash. 
 3. Tools -> Port to select the correct COM port
 4. Tools -> Manage Libraries and install the three necessary libraries (you don't have to grab them from github, it is easier to use the built in "manage libraries" feature of arduino's IDE)
     * https://github.com/bitbank2/ss_oled
+    ![ss_oled](https://i.imgur.com/VzN2rGQ.png)
     * https://github.com/adafruit/Adafruit_SleepyDog
+    ![Adafruit SleepyDog Library](https://i.imgur.com/RpNBQEY.png)
     * https://github.com/khoih-prog/FlashStorage_SAMD
+    ![FlashStorage_SAMD](https://i.imgur.com/E3zojXP.png)
 5. Compile and upload the code
 
 ---
