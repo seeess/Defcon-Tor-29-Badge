@@ -214,7 +214,9 @@ TBD
 
 ## Badge Challenge
 
-Gigs created a badge challenge that will have some kind of prize. Start with the lanyard. I expect he will have a writeup on [his site](https://gigsatdc.com/) when defcon is over.
+Gigs created a badge challenge that had a prize of one of the three prototype purple badges, and an extra white Tor Badge. Start with the lanyard. He has walkthrough of the challenge on [his site](https://gigsatdc.com/dc29/torbadge_walkthrough.php).
+
+Additionally there was a second hardware related mini-challenge Gigs added to the silkscreen of the back of the badge under the battery holder. If you removed the battery holder you'd see "First person to message @see_ess on twitter with the text "no step on snek" will get a prize". But no one seemed to find this message, so the prize of a defcon 27 Tor Badge/SAO goes unclaimed. 
 
 *All profits from the sale of this badge go directly to the Tor project, just like 2 years ago. I am not funded by anyone, I front all costs of development myself. I do not charge for my time or effort, I only hope to recoup any material costs.
 If you choose to purchase a badge, thanks for supporting Tor.*
