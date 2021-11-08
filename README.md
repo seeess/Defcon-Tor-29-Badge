@@ -45,7 +45,7 @@ Here are some tips for an accurate reading:
 * Place the finger cuffs on your index and ring finger of the same hand. The sensors work best when the contacts are in the middle of the pad of your fingers. 
 * Do not change the amount of pressure on the contacts (like touching a table or the badge with those fingers). What works the best is letting your fingers dangle while keeping them still.
 * Do not touch the board besides the heart rate sensor (which is isolated with a clear sticker). Touching the board's traces can throw off the GSR reading.
-* After placing the finger cuffs on your fingers, adjust the potentiometer so the GSR reading is around 512. Using the calibration mode is not required, you can do this while in the normal "Lie Detector" mode. 
+* After placing the finger cuffs on your fingers, adjust the potentiometer so the GSR reading is around 512. Using the calibration mode is not required, you can do this while in the normal "Lie Detector" mode. If you’re having trouble getting a valid reading, you probably don’t want your potentiometer set to the max or min values if you’re not noticing the GSR value isn’t sensitive enough.
 * To trigger the GSR sensor you can:
     * Sharply inhale and sharply exhale. It works best when you make yourself nervous or scared while doing this (create that inner tingling feeling), instead of simply breathing
     * Flex your butthole or kegel muscles for a few seconds, then release
